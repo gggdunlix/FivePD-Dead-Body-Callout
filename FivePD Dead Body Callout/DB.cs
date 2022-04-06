@@ -9,7 +9,7 @@ using CitizenFX.Core.Native;
 
 namespace DeadBody
 {
-    [CalloutProperties("Dead Body", "GGGDunlix", "0.1.1")]
+    [CalloutProperties("Dead Body", "GGGDunlix", "0.1.2")]
     public class DeadBody : Callout
     {
         Ped body;
@@ -233,7 +233,7 @@ new Vector3(-816.531f, -751.734f, 22.84326f),
 new Vector3(-1771.968f, -690.9758f, 10.45684f),
 new Vector3(-793.5997f, 149.0899f, 71.04284f),
 new Vector3(-803.9176f, 169.868f, 76.74026f),
-World.GetNextPositionOnStreet(Vector3Extension.Around(Game.PlayerPed.Position, 200f)),
+World.GetSafeCoordForPed(Vector3Extension.Around(Game.PlayerPed.Position, 300), false),
         };
 
         public DeadBody()
