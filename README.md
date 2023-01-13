@@ -16,5 +16,5 @@ Any problems, contact my discord: GGGDunlix#0628
 
 
 ## HOW TO INSTALL
-1. Grab the latest DLL from [releases](https://github.com/gggdunlix/FivePD-Drug-Deal-Callout/releases)
+1. Grab the latest DLL from [releases](https://github.com/gggdunlix/FivePD-Dead-Body-Callout/releases)
 2. Download it and paste it into your `callouts` folder in the FivePD resource folder.
